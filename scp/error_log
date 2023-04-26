@@ -1,0 +1,54 @@
+[20-Oct-2016 17:02:13 UTC] PHP Fatal error:  Call to a member function setTabActive() on a non-object in /home/take01/public_html/ouvidoria/scp/profile.php on line 45
+[20-Oct-2016 17:02:35 UTC] PHP Fatal error:  Call to a member function setTabActive() on a non-object in /home/take01/public_html/ouvidoria/scp/profile.php on line 45
+[20-Oct-2016 17:02:45 UTC] PHP Fatal error:  Call to a member function setTabActive() on a non-object in /home/take01/public_html/ouvidoria/scp/profile.php on line 45
+[20-Oct-2016 20:59:47 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 15:48:39 UTC] PHP Warning:  sprintf(): Too few arguments in /home/take01/public_html/ouvidoria/scp/templates.php on line 25
+[21-Oct-2016 16:14:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' in /home/take01/public_html/ouvidoria/include/class.orm.php:224
+Stack trace:
+#0 /home/take01/public_html/ouvidoria/include/class.organization.php(345): VerySimpleModel->save()
+#1 /home/take01/public_html/ouvidoria/include/ajax.orgs.php(78): Organization->update(Array, Array)
+#2 [internal function]: OrgsAjaxAPI->updateOrg('1', true)
+#3 /home/take01/public_html/ouvidoria/include/class.dispatcher.php(145): call_user_func_array(Array, Array)
+#4 /home/take01/public_html/ouvidoria/include/class.dispatcher.php(38): UrlMatcher->dispatch('/1/profile', Array)
+#5 /home/take01/public_html/ouvidoria/include/class.dispatcher.php(120): Dispatcher->resolve('/1/profile', Array)
+#6 /home/take01/public_html/ouvidoria/include/class.dispatcher.php(38): UrlMatcher->dispatch('/orgs/1/profile', NULL)
+#7 /home/take01/public_html/ouvidoria/scp/ajax.php(186): Dispatcher->resolve('/orgs/1/profile')
+#8 {main}
+  thrown in /home/take01/public_html/ouvidoria/include/class.orm.php on line 224
+[17-Nov-2016 19:54:14 UTC] PHP Warning:  stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 19:54:14 UTC] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 19:54:14 UTC] PHP Warning:  stream_socket_client(): unable to connect to ssl://smtp.fortes.ind.br:587 (Unknown error) in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 19:54:21 UTC] PHP Warning:  stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 19:54:21 UTC] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 19:54:21 UTC] PHP Warning:  stream_socket_client(): unable to connect to ssl://smtp.fortes.ind.br:587 (Unknown error) in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 19:55:29 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 19:55:29 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 19:55:35 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 19:55:35 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 19:56:00 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 19:56:00 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 19:56:06 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 19:56:06 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 20:01:23 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 20:01:23 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 20:02:00 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 20:02:00 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 20:02:07 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 20:02:07 UTC] PHP Warning:  stream_context_create(): options should have the form [&quot;wrappername&quot;][&quot;optionname&quot;] = $value in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 154
+[17-Nov-2016 20:04:22 UTC] PHP Warning:  stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 20:04:22 UTC] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 20:04:22 UTC] PHP Warning:  stream_socket_client(): unable to connect to ssl://smtp.fortes.ind.br:587 (Unknown error) in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 20:04:27 UTC] PHP Warning:  stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 20:04:27 UTC] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
+[17-Nov-2016 20:04:27 UTC] PHP Warning:  stream_socket_client(): unable to connect to ssl://smtp.fortes.ind.br:587 (Unknown error) in /home/take01/public_html/ouvidoria/include/pear/Net/Socket.php on line 166
